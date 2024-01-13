@@ -12,53 +12,61 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <a href="./index.html"><span>WEB</span>STUDIO</a>
-      <nav>
+    <header class="header">
+      <a class="logo" href="./index.html"
+        ><span class="logoColor">WEB</span>STUDIO</a
+      >
+      <nav class="navigations">
         <a href="./index.html">Studio</a><a href="./portfolio.html">Portfolio</a
         ><a href="#">Contacts</a>
       </nav>
-      <div>
+      <div class="contacts">
         <a href="mailto:info@devstudio.com">mailto:info@devstudio.com</a>
         <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
       </div>
     </header>
     <main>
       <!-- Hero -->
-      <section>
+      <section class="hero">
         <h1>Effective Solutions for Your Business</h1>
         <button>Order Service</button>
       </section>
       <!-- About -->
-      <section>
+      <section class="about">
         <h2 class="visually-hidden">About company</h2>
-        <ul>
+        <ul class="companyInfo">
           <li>
-            <h2>Strategy</h2>
-            <p>
+            <h2 class="companyAdvantages">Strategy</h2>
+            <p class="companyDetails">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h2>Punctuality</h2>
-            <p>
+            <h2 class="companyAdvantages">Punctuality</h2>
+            <p class="companyDetails">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h2>Diligence</h2>
-            <p>
+            <h2 class="companyAdvantages">Diligence</h2>
+            <p class="companyDetails">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h2>Technologies</h2>
-            <p>
+            <h2 class="companyAdvantages">Technologies</h2>
+            <p class="companyDetails">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -66,27 +74,27 @@
         </ul>
       </section>
       <!-- WhatAreWeDoing -->
-      <section>
+      <section class="services">
         <h2>What Are We Doing</h2>
-        <ul>
+        <ul class="ourActivities">
           <li><img src="./images/computer.jpg" alt="Computer" /></li>
           <li><img src="./images/telephone.jpg" alt="Telephone" /></li>
           <li><img src="./images/laptop.jpg" alt="Laptop" /></li>
         </ul>
       </section>
       <!-- OurTeam -->
-      <section>
+      <section class="ourTeam">
         <h2>Our Team</h2>
         <ul>
           <li>
-            <div>
+            <div class="teamCards">
               <img src="./images/productdesigner.jpg" alt="Product Designer" />
               <h2>Mark Guerrero</h2>
               <p>Product Designer</p>
             </div>
           </li>
           <li>
-            <div>
+            <div class="teamCards">
               <img
                 src="./images/frontenddeveloper.jpg"
                 alt="Frontend Developer"
@@ -96,14 +104,14 @@
             </div>
           </li>
           <li>
-            <div>
+            <div class="teamCards">
               <img src="./images/marketing.jpg" alt="Marketing" />
               <h2>Camila Garcia</h2>
               <p>Marketing</p>
             </div>
           </li>
           <li>
-            <div>
+            <div class="teamCards">
               <img src="./images/uidesigner.jpg" alt="UI Designer" />
               <h2>Daniel Wilson</h2>
               <p>UI Designer</p>

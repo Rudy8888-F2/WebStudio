@@ -19,3 +19,175 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  padding: 25px 156px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logoColor {
+  color: #4d5ae5;
+}
+
+.navigations {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
+  margin-right: auto;
+}
+
+.navigations a {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1, 5;
+  letter-spacing: 0.32px;
+}
+
+.contacts {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts a {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1, 5;
+  letter-spacing: 0.32px;
+}
+
+.hero {
+  text-align: center;
+  padding: 188px 472px;
+  background: #2e2f42;
+}
+
+.hero h1 {
+  margin-bottom: 48px;
+  color: #fff;
+  text-align: center;
+
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 07;
+  letter-spacing: 1.12px;
+}
+
+.hero button {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+
+  border-radius: 4px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.about {
+  padding: 120px 156px;
+}
+
+.companyInfo {
+  display: flex;
+  gap: 24px;
+}
+
+.companyAdvantages {
+  margin-bottom: 8px;
+  color: #2e2f42;
+
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.companyDetails {
+  color: #434455;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.services h2 {
+  margin-bottom: 72px;
+  color: #2e2f42;
+  text-align: center;
+
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.ourActivities {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+
+.ourTeam {
+  background: #f4f4fd;
+}
+
+.ourTeam > h2 {
+  color: #2e2f42;
+  text-align: center;
+
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.ourTeam ul {
+  display: flex;
+}
+
+.teamCards {
+}
+
+footer {
+  max-width: 1440px;
+}
