@@ -80,13 +80,18 @@ section {
 }
 
 .hero {
-  text-align: center;
-  padding: 188px 472px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 188px;
   background: #2e2f42;
 }
 
 .hero h1 {
-  margin-bottom: 48px;
+  width: 496px;
+  margin: 0 auto 48px auto;
   color: #fff;
   text-align: center;
 
@@ -163,6 +168,16 @@ section {
   margin-bottom: 120px;
 }
 
+.ourActivities li {
+  width: 360px;
+  height: 300px;
+}
+
+.ourActivitiesPhoto {
+  width: 100%;
+  height: 100%;
+}
+
 .ourTeam {
   background: #f4f4fd;
 }
@@ -178,16 +193,75 @@ section {
   line-height: 1, 11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  padding-top: 120px;
   margin-bottom: 72px;
 }
 
 .ourTeam ul {
   display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
-.teamCards {
+.teamCard {
+  margin-bottom: 120px;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.teamInfo {
+  text-align: center;
+  padding: 32px 0 32px 0;
+}
+
+.teamInfo h2 {
+  margin-bottom: 8px;
+}
+
+.teamPhoto {
+  width: 264px;
+  height: 260px;
+}
+
+.teamPhoto img {
+  width: 100%;
+  height: 100%;
 }
 
 footer {
   max-width: 1440px;
+}
+
+.logoFooter {
+  padding: 101.5px 0 100px 156px;
+  background: #2e2f42;
+}
+
+.logoFooter a {
+  display: block;
+  margin-bottom: 20px;
+
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logoFooter p {
+  width: 264px;
+  color: #f4f4fd;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
