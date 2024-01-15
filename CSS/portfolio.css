@@ -105,6 +105,12 @@ section {
   letter-spacing: 0.64px;
 }
 
+.filterButton button:hover {
+  background-color: #404bbf;
+  color: #fff;
+  cursor: pointer;
+}
+
 .project {
   padding-bottom: 120px;
 }
