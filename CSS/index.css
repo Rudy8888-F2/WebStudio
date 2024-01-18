@@ -312,6 +312,16 @@ section {
   height: 88px;
 }
 
+.logoCustomers:hover {
+  border-color: #404bbf;
+  cursor: pointer;
+}
+
+.logoCustomers:hover svg {
+  fill: #404bbf;
+  cursor: pointer;
+}
+
 .iconCustomers {
   width: 104px;
   height: 56px;
