@@ -258,7 +258,7 @@ section {
   height: 100%;
 }
 
-.socialNetwork {
+.socialNetwork a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -389,7 +389,7 @@ footer {
   gap: 16px;
 }
 
-.footerSocialNetwork {
+.footerSocialNetwork a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -405,6 +405,7 @@ footer {
 }
 
 .modal {
+  position: relative;
   width: 408px;
   height: 584px;
 
@@ -430,4 +431,32 @@ footer {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.dataModalClose {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dataModalClose:hover {
+  fill: #ffffff;
+  background-color: #404bbf;
+}
+
+.dataModalOpen {
+  cursor: pointer;
+}
+
+.modalIcon {
+  width: 8px;
+  height: 8px;
 }
